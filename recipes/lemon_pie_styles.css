@@ -1,0 +1,19 @@
+html{
+    background-color: rgb(204, 240, 204);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    color: black;
+}
+.right{
+    color: black;
+}
