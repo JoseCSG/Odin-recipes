@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"> 
     <title>Odin recipes</title>
 </head>
+<h1>Algunas buenas recetas que me gustan</h1>
 <body>
-    <h1>Algunas buenas recetas que me gustan</h1>
-    <ul>
-        <li><a href="./recipes/arroz_con_leche.html">Arroz con leche</a></li>
-        <li><a href="./recipes/pepperoni_pizza.html">Pizza de pepperoni</a></li>
-        <li><a href="./recipes/lemon_pie.html">Pay de limon</a></li>
-    </ul>
+    <div>
+        <img src="./images/pikachu_eating.gif">
+    </div>
+    <div class="box">
+        <form action="./recipes/arroz_con_leche.html"><button class="button arroz" onclick="window">Arroz con leche</button></form>
+        <form action="./recipes/pepperoni_pizza.html"><button class="button pizza" onclick="window">Pizza de pepperoni</button></form>
+        <form action="./recipes/lemon_pie.html"><button class="button pie" onclick="window">Pay de limon</button></form>
+    </div>
 </body>
 </html>

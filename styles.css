@@ -1,0 +1,43 @@
+html{
+    background-color: lightblue;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 30px;
+}
+img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: lightcyan;
+    border-radius: 20px;
+    width: 500px;
+    margin:auto;
+}
+.button{
+    height: 50px;
+    width: auto;
+}
+.arroz:hover {
+    background-color: rgba(247, 211, 216, 0.849);
+    color: black;
+}
+.pizza:hover{
+    background-color: rgba(224, 189, 125, 0.979);
+    color: black;
+}
+.pie:hover{
+    background-color: lightgreen;
+    color:black
+}
