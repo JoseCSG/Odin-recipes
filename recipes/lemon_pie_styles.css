@@ -2,18 +2,35 @@ html{
     background-color: rgb(204, 240, 204);
 }
 h1{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     border-radius: 20px;
     background-color: white;
+    padding: 20px;
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.left{
+.left,.right{
     color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: larger;
 }
-.right{
-    color: black;
+img{
+    width: 800px;
+    height: auto;
+}
+.middle{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    height: 30px;
+    width: auto;
 }
