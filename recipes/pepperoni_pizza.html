@@ -2,33 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pizza de pepperoni</title>
+    <title>Receta de pizza de pepperoni</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html{
+        background-color: rgb(247, 171, 85);     
+        }
+    </style>
 </head>
 <body>
     <h1>Pizza de pepperoni</h1>
-    <p>
-        La pizza de pepperoni es de mis favoritas
-    </p>
-    <img src="../images/Pizza de pepperoni" width="600" height="400" alt="Pizza de pepperoni" >
-    <p>
-        Es un platillo de origen italiano que ha sido americanizado y comercializado por todo el mundo
-    </p>
-    <h3>Ingredientes</h3>
-    <ul>
-        <li>Harina</li>
-        <li>Sal</li>
-        <li>Salsa de tomate</li>
-        <li>Queso gratinado</li>
-        <li>Pepperoni</li>
-    </ul>
-    <h3>Pasos</h3>
-    <ol>
-        <li>Juntar la arina con agua y sal; convertirla en masa</li>
-        <li>Hacer la masa en un circulo</li>
-        <li>Poner la salsa de tomate en la masa</li>
-        <li>Exparcir el pepperoni y el queso en la masa</li>
-        <li>Hornear la piiza por 20 min a 230 grados</li>
-    </ol>
-    <button><a href="../index.html">Regresar</a></button>
+    <div class="container">
+    <div class="left">
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>Harina</li>
+            <li>Sal</li>
+            <li>Salsa de tomate</li>
+            <li>Queso gratinado</li>
+            <li>Pepperoni</li>
+        </ul>
+    </div>
+    <div class="middle">
+        <p>
+            La pizza de pepperoni es de mis favoritas
+        </p>
+        <img src="../images/Pizza de pepperoni"  alt="Pizza de pepperoni" >
+        <p>
+            Es un platillo de origen italiano que ha sido americanizado y comercializado por todo el mundo
+        </p>
+        <div style="display:flex; align-items: center;justify-content: center;"><form action="../index.html"><button class="button">Regresar</button></form></div>
+    </div>
+    <div class="right">
+        <h3>Pasos</h3>
+        <ol>
+            <li>Juntar la arina con agua y sal; convertirla en masa</li>
+            <li>Hacer la masa en un circulo</li>
+            <li>Poner la salsa de tomate en la masa</li>
+            <li>Exparcir el pepperoni y el queso en la masa</li>
+            <li>Hornear la piiza por 20 min a 230 grados</li>
+        </ol>
+    </div>
+    </div>
 </body>
 </html>
