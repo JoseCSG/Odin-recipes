@@ -2,34 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Arroz con leche</title>
+    <title>Receta de arroz con leche</title>
+    <link rel="stylesheet" href="./arroz_con_leche_styles.css">
 </head>
 <body>
     <h1>Arroz con leche</h1>
-    <p>
-        El arroz con leche es mi postre favorito, como me gustaria comerlo mas seguido
-    </p>
-    <img src="../images/arroz_con_leche" width="600" height="400" alt="Arroz con leche" >
-    <p>
-        Es un postre de origen espaniol, el cual consiste en arroz remojado en leche condensada y canela
-    </p>
-    <h3>Ingredientes</h3>
-    <ul>
-        <li>Arroz</li>
-        <li>Leche condensada</li>
-        <li>Leche evaporada</li>
-        <li>Azucar</li>
-        <li>Canela</li>
-    </ul>
-    <h3>Pasos</h3>
-    <ol>
-        <li>Limpiar el arroz</li>
-        <li>Poner el arroz en una holla, con fuego bajo</li>
-        <li>Juntar la leche condensada, evaporada y el arroz</li>
-        <li>Revolver una hora</li>
-        <li>Enfriar por un dia</li>
-        <li>Poner la canela encima del arroz frio</li>
-    </ol>
-    <button><a href="../index.html">Regresar</a></button>
+    <div class="container">
+    <div class="left">
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>Arroz</li>
+            <li>Leche condensada</li>
+            <li>Leche evaporada</li>
+            <li>Azucar</li>
+            <li>Canela</li>
+        </ul>
+    </div>
+    <div class="middle">
+        <p>
+            El arroz con leche es mi postre favorito, como me gustaria comerlo mas seguido
+        </p>
+        <img src="../images/arroz_con_leche" alt="Arroz con leche" >
+        <p>
+            Es un postre de origen espaniol, el cual consiste en arroz remojado en leche condensada y canela
+        </p>
+        <div style="display:flex; align-items: center;justify-content: center;"><form action="../index.html"><button class="button">Regresar</button></form></div>
+    </div>
+    <div class="right">
+        <h3>Pasos</h3>
+        <ol>
+            <li>Limpiar el arroz</li>
+            <li>Poner el arroz en una holla, con fuego bajo</li>
+            <li>Juntar la leche condensada, evaporada y el arroz</li>
+            <li>Revolver una hora</li>
+            <li>Enfriar por un dia</li>
+            <li>Poner la canela encima del arroz frio</li>
+        </ol>
+    </div>
+    </div>
 </body>
 </html>
